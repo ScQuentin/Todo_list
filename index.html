@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="todoTitle">
+        <h1>Todos</h1>
+        <button class="buttonAdd">
+          <span class="iconAdd"><i data-lucide="plus"></i></span>
+        </button>
+      </div>
+      <div class="todoList">
+        <ul>
+          <li>
+            <span class="icon"><i data-lucide="circle"></i></span> Faire le
+            ménage
+          </li>
+          <li>
+            <span class="icon"><i data-lucide="circle"></i></span> Préparer à
+            manger
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</html>

@@ -1,0 +1,69 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+html,
+body {
+  background-image: url("/img/cityBackground.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+  background: rgb(83, 83, 83, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5);
+}
+.todoTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 5px;
+}
+.buttonAdd {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(54, 54, 54);
+  border: none;
+  cursor: pointer;
+}
+.buttonAdd .iconAdd {
+  color: white;
+}
+.todoList {
+  color: #c0c0be;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.todoList li {
+  background: rgba(105, 105, 105);
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.todoList li .icon {
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
