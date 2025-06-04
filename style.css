@@ -8,8 +8,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100%;
   width: 100%;
+  transition: background-image 0.5s ease-in-out;
 }
 
 .card {
@@ -66,4 +68,31 @@ li {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+.changeBackground {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 20px;
+  top: 20px;
+}
+.button1,
+.button2,
+.button3 {
+  margin-right: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: solid grey;
+  cursor: pointer;
+  background-size: cover;
+}
+.button1 {
+  background-image: url(img/artBackground.png);
+}
+.button2 {
+  background-image: url(img/cityBackground.jpg);
+}
+.button3 {
+  background-image: url(img/skyBackground.jpg);
 }

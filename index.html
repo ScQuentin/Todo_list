@@ -4,9 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+
     <title>Todo list</title>
   </head>
   <body>
+    <div class="changeBackground">
+      <div>
+        <button class="button1"></button>
+      </div>
+      <div>
+        <button class="button2"></button>
+      </div>
+      <div>
+        <button class="button3"></button>
+      </div>
+    </div>
     <div class="card">
       <div class="todoTitle">
         <h1>Todos</h1>
@@ -15,7 +27,7 @@
         </button>
       </div>
       <div class="todoList">
-        <ul>
+        <ul class="list">
           <li>
             <span class="icon"><i data-lucide="circle"></i></span> Faire le
             ménage
@@ -27,9 +39,10 @@
         </ul>
       </div>
     </div>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
   </body>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script>
-    lucide.createIcons();
-  </script>
 </html>
